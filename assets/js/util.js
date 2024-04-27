@@ -431,6 +431,14 @@
 				});
 
 		// Events.
+		document.addEventListener("DOMContentLoaded", function() {
+			var heading = document.getElementById("expandable-heading");
+		
+			heading.addEventListener("click", function() {
+				this.parentElement.classList.toggle("expanded");
+			});
+		});
+		
 			$this
 				.on('submit', function() {
 

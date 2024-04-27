@@ -165,20 +165,6 @@ input, select, textarea {
 		top: 0.5em;
 	}
 
-	.hidden {
-        padding: 18px;
-        width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-        background-color: #777;
-        color: white;
-        cursor: pointer;
-    }
-	.content{
-		display: none;
-	}
 	
 	.active, .hidden:hover {
         background-color: #555;
@@ -2669,6 +2655,18 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		.feature.hcontent{
+			display: inline-block;
+			padding: 3.5em;
+			vertical-align: middle;
+			width: 48%;
+			display: none;
+		}
+
+		.expanded .hcontent {
+			display: block;
+		}
+
 		.feature .content {
 			display: inline-block;
 			padding: 3.5em;
@@ -2701,6 +2699,7 @@ input, select, textarea {
 				padding-right: 0;
 			}
 
+		
 		.feature.right {
 			text-align: right;
 		}
