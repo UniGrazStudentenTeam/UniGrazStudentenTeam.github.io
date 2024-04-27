@@ -2615,6 +2615,23 @@ input, select, textarea {
 			padding: 0;
 		}
 
+/* Expandable */
+	.expandable {
+		background: #ffffff;
+		border: solid 1px rgba(224, 224, 224, 0.75);
+		margin-bottom: 6em;
+		padding: 3.5em;
+		font-size: 16px;
+	}
+
+	.expandable__title-bar{
+		display: flex;
+		align-items: center;
+		padding: 14px;
+		user-select: none;
+		background-color: lightgray;
+	}
+
 /* Feature */
 
 	.feature {
@@ -2663,9 +2680,6 @@ input, select, textarea {
 			display: none;
 		}
 
-		.expanded .hcontent {
-			display: block;
-		}
 
 		.feature .content {
 			display: inline-block;
