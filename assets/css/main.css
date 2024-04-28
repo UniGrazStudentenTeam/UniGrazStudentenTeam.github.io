@@ -2621,13 +2621,13 @@ input, select, textarea {
 		display: flex;
 		padding-top: 50px;
 		justify-content: center;		
-		background: #ffffff;
+		/* background: #ffffff;
 		border: solid 1px rgba(224, 224, 224, 0.75);
 		margin-bottom: 6em;
 		padding: 3.5em;
 		margin: 0 auto;
 		max-width: 100%;
-		width: 51em;
+		width: 51em; */
 	}
 
 	.collapsible {
@@ -2641,7 +2641,7 @@ input, select, textarea {
 	}
 
 	.collapsible label{
-		all: inherit;
+		/*all: inherit;*/
 		position: relative;
 		display: block;
 		cursor: pointer;
@@ -2668,7 +2668,7 @@ input, select, textarea {
 	}
 
 	.collapsible input:checked ~ .collapsible-text{
-		max-height: 300px;	
+		max-height: 400px;	
 		opacity: 1;
 		top: 0;
 	}
