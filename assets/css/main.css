@@ -2617,6 +2617,31 @@ input, select, textarea {
 
 /* Expandable */
 
+	.tooltip {
+		position: relative;
+	}
+
+	.tooltip-text {
+		visibility: hidden;
+		background-color: #f0f0f0;
+		color: #000;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px;
+		position: absolute;
+		z-index: 1;
+		bottom: 125%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 120px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	}
+
+	.tooltip:hover .tooltip-text {
+		visibility: visible;
+	}
+
+
 	.wrapper {
 		display: flex;
 		padding-top: 50px;
