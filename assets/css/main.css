@@ -2616,20 +2616,61 @@ input, select, textarea {
 		}
 
 /* Expandable */
-	.expandable {
-		background: #ffffff;
-		border: solid 1px rgba(224, 224, 224, 0.75);
-		margin-bottom: 6em;
-		padding: 3.5em;
-		font-size: 16px;
+
+	.wrapper {
+		display: flex;
+		padding-top: 50px;
+		justify-content: center;
 	}
 
+	.collapsible {
+		max-width: 600px;
+		overflow: hidden;
+		font-weight: 500;
+	}
+
+	.collapsible input{
+		display: none;
+	}
+
+	.collapsible label{
+		all: inherit;
+		position: relative;
+		display: block;
+		cursor: pointer;
+		z-index: 1;
+	}
+
+	.collapsible label::after{
+		content: "";
+		position: absolute;
+		right: 15px;
+		top: 20px;
+	}
+
+
+	.collapsible-text{
+		max-height: 1px;
+		overflow: hidden;
+		position: relative;
+		line-height: 1.4;
+		border-radius: 4px;
+		top: -100%;
+		opacity: 0.5;
+		transition: all 0.3s ease;
+	}
+
+	.collapsible input:checked ~ .collapsible-text{
+		max-height: 300px;	
+		opacity: 1;
+		top: 0;
+	}
+
+
 	.expandable__title-bar{
+		all: inherit;
 		display: flex;
-		align-items: center;
-		padding: 14px;
 		user-select: none;
-		background-color: lightgray;
 	}
 
 /* Feature */
