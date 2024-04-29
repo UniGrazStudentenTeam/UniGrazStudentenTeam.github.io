@@ -2651,7 +2651,7 @@ input, select, textarea {
 		background-color: white;
 		
 		font-weight: 700;
-		font-size: 1.75em;
+		font-size: 1.25em;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
 		margin-bottom: 1em;
@@ -2681,7 +2681,7 @@ input, select, textarea {
 		/* display: none; */
 		max-height: 0;
 		overflow: hidden;
-		transition: max-height 0.2s ease-out;
+		transition: max-height 0.5s ease-out;
 		border: solid 1px rgba(224, 224, 224, 0.75);
 	} 
 
