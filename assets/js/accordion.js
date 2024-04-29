@@ -12,7 +12,7 @@ for (i = 0; i < acc.length; i++) {
             acc[j].classList.remove("active");
             if (otherpanel.style.maxHeight) 
             {
-                otherpanel.style.maxHeight = null;
+                otherpanel.style.maxHeight = 0;
             } 
         }
     }
@@ -21,9 +21,9 @@ for (i = 0; i < acc.length; i++) {
     /* Toggle between hiding and showing the active panel */
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
+      panel.style.maxHeight = 0;
     } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
+      panel.style.maxHeight = 500;
     }
   });
 } 
