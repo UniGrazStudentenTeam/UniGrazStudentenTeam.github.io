@@ -2642,6 +2642,11 @@ input, select, textarea {
 	}
 	/* Style the buttons that are used to open and close the accordion panel */
 	.accordion {
+		background: #ffffff;
+		border: solid 1px rgba(224, 224, 224, 0.75);
+		margin-bottom: 6em;
+		padding: 3.5em;
+		
 		background-color: #eee;
 		color: #444;
 		cursor: pointer;

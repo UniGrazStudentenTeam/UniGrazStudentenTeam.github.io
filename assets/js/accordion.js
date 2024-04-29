@@ -9,14 +9,14 @@ for (i = 0; i < acc.length; i++) {
     var panel = this.nextElementSibling;
     var isOpen = panel.style.maxHeight;
     
-    for(j = 0; j < acc.length; j++){
-        var otherpanel = acc[j].nextElementSibling;
-        if (otherpanel !== panel)
-        {
-            acc[j].classList.remove("active");
-            otherpanel.style.maxHeight = null;
-        }
-    }
+    // for(j = 0; j < acc.length; j++){
+    //     var otherpanel = acc[j].nextElementSibling;
+    //     if (otherpanel !== panel)
+    //     {
+    //         acc[j].classList.remove("active");
+    //         otherpanel.style.maxHeight = null;
+    //     }
+    // }
     
     /* Toggle between hiding and showing the active panel */
 
