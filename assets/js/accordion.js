@@ -28,16 +28,16 @@ for (i = 0; i < acc.length; i++) {
   });
 } 
 
-const toolTipTrigger = document.querySelectorAll('.tooltip');
+// const toolTipTrigger = document.querySelectorAll('.tooltip');
 
-toolTipTrigger.forEach(trigger => {
-  trigger.addEventListener('mouseover', () => {
+// toolTipTrigger.forEach(trigger => {
+//   trigger.addEventListener('mouseover', () => {
   
-    const tooltipText = trigger.getAttribute('data-tooltip');
-  const tooltipBox = document.getElementById('tooltipBox');
-  tooltipBox.textContent = tooltipText;
-  tooltipBox.style.display = 'block';
-});
-  trigger.addEventListener('mouseout', () => {
-    document.getElementById('tooltipBox').style.display = 'none';
-  })})
+//     const tooltipText = trigger.getAttribute('data-tooltip');
+//   const tooltipBox = document.getElementById('tooltipBox');
+//   tooltipBox.textContent = tooltipText;
+//   tooltipBox.style.display = 'block';
+// });
+//   trigger.addEventListener('mouseout', () => {
+//     document.getElementById('tooltipBox').style.display = 'none';
+//   })})

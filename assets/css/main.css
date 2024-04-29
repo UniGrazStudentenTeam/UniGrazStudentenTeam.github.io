@@ -2627,22 +2627,30 @@ input, select, textarea {
 
 	.tooltip {
 		position: relative;
-		border-bottom: 1px dashed green;
+		color: green;
 	}
 
-	.tooltip:hover::after {
+
+	.tooltip::after {
 		content: attr(data-tooltip);
-		position: relative;
-		background-color: #242222;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: #6d6d6d;
 		color: #fcfbfb;
 		text-align: center;
 		padding: 5px;
+		z-index: 1;
 		border: 1px solid lightgray;
-	}
-
-	.tooltip-box {
 		display: none;
 	}
+
+	.tooltip:hover::after {
+		display: block;
+	}
+
+
 
 
 	/* Style the buttons that are used to open and close the accordion panel */
