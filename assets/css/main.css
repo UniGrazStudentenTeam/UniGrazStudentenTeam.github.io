@@ -2649,7 +2649,9 @@ input, select, textarea {
 		/* background-color: #eee; */
 		color: #5b5b5b;
 		background-color: white;
+		
 		font-weight: 700;
+		font-size: 1.75em;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
 		margin-bottom: 1em;
