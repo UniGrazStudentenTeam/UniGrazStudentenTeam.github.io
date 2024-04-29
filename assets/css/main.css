@@ -2636,6 +2636,7 @@ input, select, textarea {
 		position: absolute;
 		top: -40px;
 		left: -50%;
+		max-width: fit-content;
 		/* transform: translateX(-50%); */
 		
 		background-color: #6d6d6d;
