@@ -2548,6 +2548,10 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
+		position: fixed;
+		top: 20px;
+		left: 20px;
+		z-index: 9999;
 	}
 
 		input[type="submit"]:hover,
