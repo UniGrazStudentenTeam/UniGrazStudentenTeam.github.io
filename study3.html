@@ -11,11 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<a href="index.html" class="button">Home</a>
+
 	<body class="is-preload">
 
 			<!-- Header -->
 			<div id="header">
-				<span class="logo icon solid fa-vr-cardboard"></span>
+				<span class="logo icon solid fa-brain"></span>
 				<h1>AI wearables and Virtual Reality</h1>
 				<p>Short Overview 
 				<br />
@@ -36,33 +38,44 @@
 					<section>	
 					<button class="accordion">What was done?</button>
 					<div class="panel">
-					  <p>In this study authors presented an anxiety detection framework based on the EEG 
-                        (Electroencephalography) data collected from 65 participants. Paper describes in detail 
+					  <p>In this study authors presented an anxiety detection framework based on the <b>
+						EEG 
+												(Electroencephalography)
+					  </b>data collected from 65 participants. The study describes in detail 
                         the data acquisition, pre-processing, feature extraction and selection, and classification stages. 
-                        Two approaches were developed: for the binary(anxious/non-anxious) and 
-                        multi-class(non-anxious/low-anxious/high-anxious) classification. </p>
+                        Two approaches were developed: for the <b>binary</b>(anxious/non-anxious) and 
+                        <b>multi-class</b>(non-anxious/low-anxious/high-anxious) classification. </p>
 					</div> 
 					<br><br>
 		
 					<button class="accordion">What were the results?</button>
 					<div class="panel">
-						<p>After performing channel selection by using the t test (2 classes) and ANOVA (3 classes) TP9 and AF8 were 
-                            found to be statistically significantly different channels. From those channels  5 time-domain features were 
+						<p>After performing channel selection by using the t test (2 classes) and ANOVA (3 classes) <b>TP9 and AF8 </b>were 
+                            found to be statistically significantly <b>different channels</b>. From those channels  5 time-domain features were 
                             selected for further classifier training. Out of Random Forest, Logistic Regression and Multilayer perceptron, 
-                            Random Forest classifier yielded the best accuracy score for both 2 and 3 class problems, 87.69 and 83.07, 
-                            respectively. </p>
+                            <b>Random Forest classifier</b> yielded the best accuracy score for both 2 and 3 class problems,<b>
+								 87.69 and 83.07,
+								respectively.
+							</b> </p>
 					</div>
 					<br><br>
 
 					<button class="container accordion">What can be concluded?</button>
 					<div class="container panel">
-					  <p>When working with the EEG data it is crucial to perform thorough channel and feature selection. This will yield better 
+					  <p>When working with the EEG data it is crucial to perform thorough <b>channel and feature selection</b>. This will yield better 
                         results later on during the classifier training. The developed pipeline is able to differentiate not only between anxious 
-                        and non-anxious classes, but also to distinguish the level of anxiousness as well. Authors demonstrated that it is possible
-                         to provide a classification pipeline for anxiety using a low-cost device with only four channels. This setup can be 
+                        and non-anxious classes, but also to distinguish the <b>level of anxiousness as well</b>. Authors demonstrated that it is possible
+                         to provide a classification pipeline for anxiety using a <b>low-cost device</b> with only four channels. This setup can be 
                          integrated into daily life, not just in clinical settings.  </p>
 					</div>
 					<br><br>
+
+					<button class="accordion">Download</button>
+					<div class="panel">
+					  <p>Click <a href="pdfs/eeg.pdf" download>here</a>  to download the original paper.</p>
+					</div>
+					<br><br>
+
 				</div>
 			</div>
 
