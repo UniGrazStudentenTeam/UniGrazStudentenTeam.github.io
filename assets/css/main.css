@@ -2499,8 +2499,9 @@ input, select, textarea {
 					background: rgba(224, 224, 224, 0.15);
 				}
 
-			table.default td {
+			table.default td, table.default th{
 				padding: 0.5em 1em 0.5em 1em;
+				width: 50%;
 			}
 
 			table.default th {
