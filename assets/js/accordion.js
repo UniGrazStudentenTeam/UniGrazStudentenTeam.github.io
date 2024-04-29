@@ -6,11 +6,15 @@ for (i = 0; i < acc.length; i++) {
     /* Toggle between adding and removing the "active" class,
     to highlight the button that controls the panel */
     for(j = 0; j < acc.length; j++){
-        acc[j].classList.remove("active");
-        var panel = acc[j].nextElementSibling;
-        if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-        } 
+        var otherpanel = acc[j].nextElementSibling;
+        if (acc[j] !== this)
+        {
+            acc[j].classList.remove("active");
+            if (otherpanel.style.maxHeight) 
+            {
+                otherpanel.style.maxHeight = null;
+            } 
+        }
     }
     this.classList.toggle("active");
 
