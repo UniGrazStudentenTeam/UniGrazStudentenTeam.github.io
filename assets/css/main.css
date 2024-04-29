@@ -2627,27 +2627,24 @@ input, select, textarea {
 
 	.tooltip {
 		position: relative;
+		border-bottom: 1px dashed green;
 	}
 
-	.tooltip-text {
-		visibility: hidden;
-		background-color: #f0f0f0;
-		color: #000;
+	.tooltip:hover::after {
+		content: attr(data-tooltip);
+		position: relative;
+		background-color: #242222;
+		color: #fcfbfb;
 		text-align: center;
-		border-radius: 6px;
 		padding: 5px;
-		position: absolute;
-		z-index: 1;
-		bottom: 125%;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 120px;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+		border: 1px solid lightgray;
 	}
 
-	.tooltip:hover .tooltip-text {
-		visibility: visible;
+	.tooltip-box {
+		display: none;
 	}
+
+
 	/* Style the buttons that are used to open and close the accordion panel */
 	.accordion {
 		/* background: #ffffff;
