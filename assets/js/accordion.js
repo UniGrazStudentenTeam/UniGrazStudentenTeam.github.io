@@ -9,6 +9,7 @@ for (i = 0; i < acc.length; i++) {
        acc[i].classList.toggle("active");
        var panel = this.nextElementSibling;
        panel.style.maxHeight = null; 
+       acc[i].classList.remove("active");
     }
     this.classList.toggle("active");
 
