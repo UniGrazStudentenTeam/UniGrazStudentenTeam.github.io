@@ -2634,7 +2634,7 @@ input, select, textarea {
 		content: attr(data-tooltip);
 		
 		position: absolute;
-		top: -40px;
+		top: -150px;
 		left: -50%;
 		max-width: fit-content;
 		/* transform: translateX(-50%); */
@@ -2642,6 +2642,7 @@ input, select, textarea {
 		background-color: #6d6d6d;
 		color: #fcfbfb;
 		text-align: center;
+		font-size: 0.5em;
 		padding: 5px;
 		z-index: 1;
 		border: 1px solid lightgray;
