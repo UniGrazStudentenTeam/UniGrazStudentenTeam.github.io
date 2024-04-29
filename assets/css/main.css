@@ -2653,13 +2653,14 @@ input, select, textarea {
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
 		margin-bottom: 1em;
+		align-self: center;
 		
 		text-transform: uppercase;
 		text-align: center;
 
 		cursor: pointer;
 		padding: 18px;
-		width: 70%;
+		width: 60%;
 		border: solid 1px rgba(224, 224, 224, 0.75);
 		/* border: none;  */
 		/* outline: none; */
@@ -2673,12 +2674,13 @@ input, select, textarea {
 	
 	/* Style the accordion panel. Note: hidden by default */
 	.panel {
-		padding: 0 18px;
-		background-color: white;
+		padding: inherit;
+		background-color: inherit;
 		/* display: none; */
 		max-height: 0;
 		overflow: hidden;
 		transition: max-height 0.2s ease-out;
+		border: solid 1px rgba(224, 224, 224, 0.75);
 	} 
 
 	.wrapper {
