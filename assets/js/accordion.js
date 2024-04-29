@@ -24,5 +24,7 @@ for (i = 0; i < acc.length; i++) {
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
     }
+
+    this.classList.remove("active");
   });
 } 
