@@ -5,15 +5,12 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     /* Toggle between adding and removing the "active" class,
     to highlight the button that controls the panel */
-    for(i = 0; i < acc.length; i++){
-   
-       
-        acc[i].classList.toggle("active");
-        var panel = this.nextElementSibling;
+    for(j = 0; j < acc.length; j++){
+        acc[j].classList.remove("active");
+        var panel = acc[j].nextElementSibling;
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
         } 
-        acc[i].classList.remove("active");
     }
     this.classList.toggle("active");
 
@@ -24,7 +21,5 @@ for (i = 0; i < acc.length; i++) {
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
     }
-
-    this.classList.remove("active");
   });
 } 
