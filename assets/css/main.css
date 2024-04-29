@@ -2646,15 +2646,23 @@ input, select, textarea {
 		border: solid 1px rgba(224, 224, 224, 0.75);
 		margin-bottom: 6em;
 		padding: 3.5em; */
+		/* background-color: #eee; */
+		color: #5b5b5b;
+		background-color: white;
+		font-weight: 700;
+		letter-spacing: 0.125em;
+		line-height: 1.75em;
+		margin-bottom: 1em;
 		
-		background-color: #eee;
-		color: #444;
+		text-transform: uppercase;
+		text-align: center;
+
 		cursor: pointer;
 		padding: 18px;
-		width: 100%;
-		text-align: left;
-		border: none; 
-		outline: none;
+		width: 70%;
+		border: solid 1px rgba(224, 224, 224, 0.75);
+		/* border: none;  */
+		/* outline: none; */
 		transition: 0.4s;
 	}
 	
